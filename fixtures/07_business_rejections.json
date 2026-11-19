@@ -1,0 +1,11 @@
+{
+  "batch_id": "fixture-business-reject",
+  "commands": [
+    {"cmd": "revoke", "witness": "carol"},
+    {"cmd": "approve", "appointment_id": "APPT-1001", "witness": "carol", "content": "late"},
+    {"cmd": "handover", "appointment_id": "APPT-1001"},
+    {"cmd": "revoke_registration", "device_fp": "fp-synthetic-AAA"},
+    {"cmd": "appoint", "appointment_id": "APPT-2001", "account": "acct-employee-03",
+     "device_fp": "fp-synthetic-AAA", "deadline": 80}
+  ]
+}

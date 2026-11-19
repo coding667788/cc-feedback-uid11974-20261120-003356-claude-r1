@@ -1,0 +1,19 @@
+{
+  "batch_id": "fixture-handover",
+  "commands": [
+    {
+      "cmd": "define_config",
+      "config": {
+        "version": 2,
+        "required_groups": 3,
+        "chair_group": "G1",
+        "members": {
+          "G1": ["alice", "dave"],
+          "G2": ["bob"],
+          "G4": ["erin"]
+        }
+      }
+    },
+    {"cmd": "switch", "version": 2}
+  ]
+}

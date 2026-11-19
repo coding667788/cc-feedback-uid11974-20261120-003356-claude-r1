@@ -1,0 +1,12 @@
+{
+  "config": {
+    "version": 1,
+    "required_groups": 3,
+    "chair_group": "G1",
+    "members": {
+      "G1": ["alice"],
+      "G2": ["bob"],
+      "G3": ["carol", "frank"]
+    }
+  }
+}

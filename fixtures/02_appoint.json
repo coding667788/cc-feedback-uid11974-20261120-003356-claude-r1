@@ -1,0 +1,19 @@
+{
+  "batch_id": "fixture-appoint",
+  "commands": [
+    {
+      "cmd": "appoint",
+      "appointment_id": "APPT-1001",
+      "account": "acct-employee-01",
+      "device_fp": "fp-synthetic-AAA",
+      "deadline": 50
+    },
+    {
+      "cmd": "appoint",
+      "appointment_id": "APPT-1002",
+      "account": "acct-employee-02",
+      "device_fp": "fp-synthetic-BBB",
+      "deadline": 50
+    }
+  ]
+}

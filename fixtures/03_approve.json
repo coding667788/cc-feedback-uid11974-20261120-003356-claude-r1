@@ -1,0 +1,11 @@
+{
+  "batch_id": "fixture-approve",
+  "commands": [
+    {"cmd": "approve", "appointment_id": "APPT-1001", "witness": "alice", "content": "attest-1001"},
+    {"cmd": "approve", "appointment_id": "APPT-1001", "witness": "bob",   "content": "attest-1001"},
+    {"cmd": "approve", "appointment_id": "APPT-1001", "witness": "carol", "content": "attest-1001"},
+
+    {"cmd": "approve", "appointment_id": "APPT-1002", "witness": "alice", "content": "attest-1002"},
+    {"cmd": "approve", "appointment_id": "APPT-1002", "witness": "bob",   "content": "attest-1002"}
+  ]
+}

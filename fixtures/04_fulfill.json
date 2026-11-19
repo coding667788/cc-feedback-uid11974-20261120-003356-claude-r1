@@ -1,0 +1,7 @@
+{
+  "batch_id": "fixture-fulfill",
+  "commands": [
+    {"cmd": "fulfill", "appointment_id": "APPT-1001"},
+    {"cmd": "fulfill", "appointment_id": "APPT-1002"}
+  ]
+}

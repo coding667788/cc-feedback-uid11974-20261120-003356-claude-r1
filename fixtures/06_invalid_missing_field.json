@@ -1,0 +1,6 @@
+{
+  "batch_id": "fixture-invalid",
+  "commands": [
+    {"cmd": "appoint", "appointment_id": "BAD-1", "account": "acct-x"}
+  ]
+}
